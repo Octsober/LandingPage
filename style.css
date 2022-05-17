@@ -1,0 +1,112 @@
+body{
+    background-image: url(image/background.png);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right,#314755, #26a0da);
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+}
+h1{
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+}
+h2{
+    text-align: center;
+    color: #fff;
+}
+b{
+    font-variant: small-caps;
+    font-size: 30px;
+}
+button{
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #26a0da;
+    color: #fff;
+    border: 1px solid #000;
+}
+.box1{
+    background-image: linear-gradient(to right,#31475580, #26a0da80);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: #fff;
+}
+.sub1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+[alt^=Summoners]{
+    max-width: 500px;
+    min-width: 250px;
+    border-radius: 15px;
+}
+.box2{
+    background-image: linear-gradient(to right,#31475580, #26a0da80);
+    margin: 40px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+.sub2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+[alt^=Mode]{
+    width: 250px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.box3{
+    background-image: linear-gradient(to right,#31475580, #26a0da80);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 40px 80px;
+    gap: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.box4{
+    background-image: linear-gradient(to right,#31475580, #26a0da80);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 15px;
+}
+footer{
+    background-image: linear-gradient(to right,#314755, #26a0da);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
